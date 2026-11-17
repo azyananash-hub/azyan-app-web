@@ -1,0 +1,23 @@
+# Environment & secrets — jangan pernah di-commit
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+key.properties
+
+# Editor & OS
+.DS_Store
+.idea/
+.vscode/
+
+# Flutter (app/)
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+
+# Next.js (web/)
+web/node_modules/
+web/.next/
+web/out/
